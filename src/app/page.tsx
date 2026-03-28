@@ -43,7 +43,7 @@ export default function Page() {
           <h2 className="text-xl font-bold">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <Markdown className="prose max-w-full text-pretty font-sans text-sm dark:prose-invert">
+          <Markdown className="max-w-full text-pretty font-sans text-base dark:prose-invert">
             {DATA.summary}
           </Markdown>
         </BlurFade>
@@ -67,7 +67,6 @@ export default function Page() {
                 href={work.href}
                 badges={work.badges}
                 period={`${work.start} - ${work.end ?? "Present"}`}
-                description={work.description}
               />
             </BlurFade>
           ))}

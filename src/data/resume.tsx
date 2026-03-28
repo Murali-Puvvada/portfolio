@@ -66,8 +66,6 @@ export const DATA = {
       logoUrl: "/kindred.svg",
       start: "Sep 2022",
       end: "Present",
-      description:
-        "Delivered the Tournaments feature end-to-end — from UX workshop to A/B tests — resulting in a 15% increase in Tournament Opt-Ins. Built the Switch-to-Play-for-Real nudge feature, leading 12% of play-for-fun users to click into real-money mode. Developed Search and Filters with Multi Filters across 9 brands and 10+ markets. Engineered a Rollup Config optimization reducing developer build time by 87% (82s → 10s). Built and shipped the Winners Feed achieving 1% launch conversion. Implemented Lambda functions as middleware for search, filtering, and game-listing features. Built promotion widgets for flagship campaigns generating 100k+ impressions per event. Built robust analytics tracking 1M+ daily events with custom viewability logic.",
     },
     {
       company: "Inspire Chits",
@@ -78,8 +76,6 @@ export const DATA = {
       logoUrl: "/inspirechits.png",
       start: "Jan 2022",
       end: "Apr 2022",
-      description:
-        "Built and maintained React dashboard components for a financial web application used by 10k+ users to view and track key financial data. Developed a React-based contact request workflow, improving user submission experience. Built reusable form components with input validation, improving data quality and consistency. Collaborated in an agile environment contributing to sprint planning, stand-ups, and code reviews.",
     },
     {
       company: "Exposys",
@@ -90,8 +86,6 @@ export const DATA = {
       logoUrl: "/exposys.png",
       start: "Jan 2021",
       end: "Mar 2021",
-      description:
-        "Built React components for Admin, Owner, and Tenant dashboards using React Hooks to manage UI state, streamlining role-specific workflows. Integrated GraphQL data using Apollo Client, keeping the UI synchronized with backend data and reducing data-sync errors. Validated API responses with Postman, ensuring reliable data loading. Wrote Jest snapshot tests to ensure component rendering correctness between changes.",
     },
   ],
   education: [
