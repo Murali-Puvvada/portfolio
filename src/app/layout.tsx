@@ -1,11 +1,11 @@
 import Navbar from "@/components/navbar";
+import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
-import { cookies } from "next/headers";
 import "./globals.css";
 
 const fontSans = FontSans({
@@ -54,21 +54,20 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const cookieStore = await cookies();
-  const theme = cookieStore.get("theme")?.value || "system";
-
   return (
-    <html lang="en" className={cn(theme === "system" ? "" : theme)}>
+    <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
-          fontSans.variable,
+          fontSans.variable
         )}
       >
-        <TooltipProvider delayDuration={0}>
-          {children}
-          <Navbar />
-        </TooltipProvider>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <TooltipProvider delayDuration={0}>
+            {children}
+            <Navbar />
+          </TooltipProvider>
+        </ThemeProvider>
         <Analytics />
       </body>
     </html>
