@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer. I build high-impact, customer-facing web applications at scale — from micro-frontends to macOS utilities.",
   summary:
-    "Frontend-focused Software Engineer with 4+ years of experience delivering high-impact, customer-facing web applications at scale. Experienced with A/B testing, CI/CD, shared component libraries, and analytics at scale, I am passionate about creating clean, performant micro-frontends and tools that enhance both developer and user experience.",
+    "Software Engineer with 4+ years of experience delivering high-impact, customer-facing web applications at scale. Experienced with A/B testing, CI/CD, shared component libraries, and analytics at scale, I am passionate about creating clean, performant micro-frontends and tools that enhance both developer and user experience.",
   avatarUrl: "/me.png",
   skills: [
     "React",
