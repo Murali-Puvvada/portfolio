@@ -58,6 +58,16 @@ export const DATA = {
   },
   work: [
     {
+      company: "FDJ United",
+      href: "https://www.fdjunited.com/",
+      badges: [],
+      location: "Bengaluru, India",
+      title: "Software Engineer, Frontend",
+      logoUrl: "/fdj.svg",
+      start: "Mar 2025",
+      end: "Present",
+    },
+    {
       company: "Kindred Group",
       href: "https://www.kindredgroup.com/",
       badges: [],
@@ -65,7 +75,7 @@ export const DATA = {
       title: "Software Engineer, Frontend",
       logoUrl: "/kindred.svg",
       start: "Sep 2022",
-      end: "Present",
+      end: "Feb 2025",
     },
     {
       company: "Inspire Chits",
@@ -76,16 +86,6 @@ export const DATA = {
       logoUrl: "/inspirechits.png",
       start: "Jan 2022",
       end: "Apr 2022",
-    },
-    {
-      company: "Exposys",
-      href: "http://www.exposysdata.org/",
-      badges: [],
-      location: "Remote",
-      title: "Web Developer Intern",
-      logoUrl: "/exposys.png",
-      start: "Jan 2021",
-      end: "Mar 2021",
     },
   ],
   education: [
